@@ -1,0 +1,12 @@
+sudo: required
+
+language: ruby
+
+services:
+  - docker
+
+before_install:
+  - docker build -t mllib .
+
+script:
+  - docker run mllib /bin/sh -c "python scripts/cpplint.py && /mllib/out/default/test"
