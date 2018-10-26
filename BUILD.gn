@@ -22,7 +22,7 @@ config("internal_config") {
 executable("test") {
 
   sources = [
-    "test.cc"
+    "test/test.cc"
   ]
 
   include_dirs = [ "src" ]
