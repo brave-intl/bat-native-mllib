@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef SRC_LOGISTIC_REGRESSION_H_
-#define SRC_LOGISTIC_REGRESSION_H_
+#ifndef INCLUDE_LOGISTIC_REGRESSION_H_
+#define INCLUDE_LOGISTIC_REGRESSION_H_
 
 #include <stdio.h>
 #include <vector>
@@ -32,4 +32,4 @@ class LogisticRegression {
 };
 }  // namespace mllib
 
-#endif  // SRC_LOGISTIC_REGRESSION_H_
+#endif  // INCLUDE_LOGISTIC_REGRESSION_H_

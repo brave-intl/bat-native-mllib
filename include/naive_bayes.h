@@ -2,8 +2,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#ifndef SRC_NAIVE_BAYES_H_
-#define SRC_NAIVE_BAYES_H_
+#ifndef INCLUDE_NAIVE_BAYES_H_
+#define INCLUDE_NAIVE_BAYES_H_
 
 #include <stdio.h>
 #include <vector>
@@ -33,4 +33,4 @@ class NaiveBayes {
 };
 }  // namespace mllib
 
-#endif  // SRC_NAIVE_BAYES_H_
+#endif  // INCLUDE_NAIVE_BAYES_H_
